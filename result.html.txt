@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Results - M-E-S</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>M-E-S Portal</h1>
+  <p>Check All Latest Exam Results</p>
+</header>
+
+<main class="container">
+  <a class="back-button" href="index.html">⬅ Back to Home</a>
+
+  <h2>Results</h2>
+
+  <ul class="link-list">
+    <li><a href="https://ssc.nic.in/Result_CHSL2025" target="_blank">SSC CHSL 2025 Result</a></li>
+    <li><a href="https://uppbpb.gov.in/ConstableResult2025" target="_blank">UP Police Constable Result</a></li>
+    <li><a href="https://rrbcdg.gov.in/GroupDResult" target="_blank">Railway Group D Result</a></li>
+  </ul>
+</main>
+
+<footer>
+  <p>&copy; 2025 M-E-S Portal | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

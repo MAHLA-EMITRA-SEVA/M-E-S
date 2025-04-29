@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Latest Jobs - M-E-S</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* You can keep this extra style inside style.css also */
+    .jobs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .jobs-table th, .jobs-table td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+    .jobs-table th {
+      background-color: #f2f2f2;
+      color: black;
+    }
+    .jobs-table tr:hover {
+      background-color: #f9f9f9;
+    }
+    .back-button {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .back-button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>M-E-S Official Portal</h1>
+  <p>All Latest Government Jobs 2025</p>
+</header>
+
+<main class="container">
+  <a class="back-button" href="index.html">⬅ Back to Home</a>
+
+  <h2>All Latest Jobs</h2>
+
+  <table class="jobs-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Post Name</th>
+        <th>Department</th>
+        <th>Apply Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>28-Apr-2025</td>
+        <td>Police Constable Recruitment 2025</td>
+        <td>UP Police Department</td>
+        <td><a href="https://uppbpb.gov.in/constable-recruitment-2025" target="_blank">Apply Now</a></td>
+      </tr>
+      <tr>
+        <td>27-Apr-2025</td>
+        <td>SSC CHSL 2025 Notification</td>
+        <td>Staff Selection Commission (SSC)</td>
+        <td><a href="https://ssc.nic.in" target="_blank">Apply Now</a></td>
+      </tr>
+      <tr>
+        <td>26-Apr-2025</td>
+        <td>Railway Group D Vacancies 2025</td>
+        <td>Indian Railways</td>
+        <td><a href="https://indianrailways.gov.in" target="_blank">Apply Now</a></td>
+      </tr>
+      <tr>
+        <td>25-Apr-2025</td>
+        <td>UPTET 2025 Application Form</td>
+        <td>UP Basic Education Board</td>
+        <td><a href="https://upbasiceduboard.gov.in" target="_blank">Apply Now</a></td>
+      </tr>
+      <tr>
+        <td>24-Apr-2025</td>
+        <td>IBPS Clerk Recruitment 2025</td>
+        <td>Institute of Banking Personnel Selection (IBPS)</td>
+        <td><a href="https://ibps.in" target="_blank">Apply Now</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 M-E-S Portal | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

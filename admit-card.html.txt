@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admit Cards - M-E-S</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>M-E-S Portal</h1>
+  <p>Download All Latest Admit Cards</p>
+</header>
+
+<main class="container">
+  <a class="back-button" href="index.html">⬅ Back to Home</a>
+
+  <h2>Admit Cards</h2>
+
+  <ul class="link-list">
+    <li><a href="https://ssc.nic.in/AdmitCard_CHSL2025" target="_blank">SSC CHSL 2025 Admit Card</a></li>
+    <li><a href="https://uppbpb.gov.in/ConstableAdmitCard2025" target="_blank">UP Police Constable Admit Card</a></li>
+    <li><a href="https://rrbcdg.gov.in/GroupDAdmitCard" target="_blank">Railway Group D Admit Card</a></li>
+  </ul>
+</main>
+
+<footer>
+  <p>&copy; 2025 M-E-S Portal | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
