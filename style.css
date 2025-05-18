@@ -1,33 +1,70 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f4f4f4;
+  background: #f7f7f7;
 }
 
 header {
   background-color: #2e86de;
   color: white;
-  padding: 10px;
   text-align: center;
-}
-
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-section {
   padding: 20px;
 }
 
-h2 {
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.card a {
   color: #2e86de;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.job {
+  border-left: 5px solid #27ae60; /* green */
+}
+.admit {
+  border-left: 5px solid #2980b9; /* blue */
+}
+.result {
+  border-left: 5px solid #c0392b; /* red */
 }
 
 footer {
-  background-color: #222;
-  color: white;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  background: #222;
+  color: white;
 }
